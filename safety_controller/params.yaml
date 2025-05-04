@@ -5,4 +5,5 @@ safety_controller:
     safety_topic: "/vesc/low_level/input/safety"
     goal_distance: 7.
     bound_angle: 7.5
-    left_right_angle: 15.0
+    left_right_angle: 45.0
+    front_steer_thres: 
