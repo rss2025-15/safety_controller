@@ -64,6 +64,8 @@ class SafetyController(Node):
         left_filtered_ranges = ranges[left_indices]
         right_filtered_ranges = ranges[right_indices]
         min_distance = np.min(filtered_ranges)
+        min_left_distance = np.min(filtered_ranges)
+        max_left_distance = np.min(filtered_ranges)
         self.get_logger().info(f"Min distance: {min_distance}")
 
         if min_distance < self.GOAL_DISTANCE:

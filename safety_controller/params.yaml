@@ -1,7 +1,8 @@
 safety_controller:
   ros__parameters:
     scan_topic: "/scan"
-    drive_topic: "/vesc/high_level/input/nav_2"
+    drive_topic: "/vesc/odom"
     safety_topic: "/vesc/low_level/input/safety"
-    goal_distance: .2
-    bound_angle: 5.
+    goal_distance: 7.
+    bound_angle: 7.5
+    left_right_angle: 15.0
